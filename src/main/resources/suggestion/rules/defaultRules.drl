@@ -1,0 +1,14 @@
+import suggestion.core.Suggestion;
+
+rule "Go Golfing"
+when
+  suggestion:Suggestion (conditions.high == 82 && conditions.wind < 10)
+then
+  suggestion.setActivity("play golf");
+end
+rule "Go Cross country skiing"
+when
+  suggestion:Suggestion (20 <= conditions.high <= 25 && conditions.wind < 10)
+then
+  suggestion.setActivity("cross country ski");
+end

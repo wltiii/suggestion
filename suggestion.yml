@@ -1,0 +1,8 @@
+defaultRules: /suggestion/rules/defaultRules.drl
+server:
+  applicationConnectors:
+  - type: http 
+    port: 9004
+  adminConnectors:
+  - type: http
+    port: 9005
