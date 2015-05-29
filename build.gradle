@@ -12,6 +12,9 @@ apply plugin: 'eclipse'
 apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'eu.appsatori.fatjar'
+apply plugin: 'application'
+
+mainClassName = 'suggestion.SuggestionApplication'
 
 repositories {
 	mavenLocal()
@@ -69,6 +72,10 @@ fatJar {
 	exclude 'META-INF/*.DSA'
 	exclude 'META-INF/*.RSA'
 	manifest {
-		attributes 'Main-Class': 'suggestion.SuggestionApplication'
+		attributes 'Main-Class': mainClassName
 	}
+}
+
+run {
+    args 'server', 'suggestion.yml'
 }

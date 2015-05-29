@@ -1,0 +1,8 @@
+= TODOs
+Bill Turner
+
+== Considerations for Future Releases ==
+* Add in basic authorization
+* Add database of user preferences and city defaults
+* Add web client for maintaining preferences
+
