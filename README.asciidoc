@@ -63,7 +63,7 @@ Below is a list of technologies used in the development of Suggestion.
 * Drools 5.4.0
 * Gradle 2.0
 
-=== Getting Started ===
+== Getting Started ==
 Install the following tools if you do not already have them:
 
  . If you don't have already, install Java (see the Technology Stack section for
@@ -80,11 +80,10 @@ Install the following tools if you do not already have them:
  . Run command `gradle build`.
  . Run command `gradle fatJar`.
  . Run command `gradle run`.
- . Once all three of the services have been started -- activities, forecast and
+ . Once all three of the services have been started -- activity, forecast and
    suggestion -- you can verify installation by navigating your web browser to
-   `http://localhost:9000/suggestions/{high}/{low}/{precip}/{wind}/{maxwind}/{humidity}/{maxhumidity}`,
-   being sure to use your port settings, if changed, and substituting appropriate values for
-   the path variables.
+   `http://localhost:9004/suggestions/82/64/0/4/6/30/50`,
+   being sure to use your port settings, if changed.
 
 
 
@@ -96,7 +95,7 @@ for IntelliJ IDEA. You are strongly encouraged to run `gradle tasks` for a list 
 targets.
 
 
-=== Disclaimer ===
+== Disclaimer ==
 Not having access to a user nor analyst is not a natural condition. There were conflicting
 or unclear requirements that needed resolution. Also, other design choices would
 have been made having someone available.
@@ -115,4 +114,3 @@ other endpoints.
 include::STYLE_GUIDE.asciidoc[]
 
 include::TODO.asciidoc[]
-
