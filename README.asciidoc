@@ -74,8 +74,8 @@ Install the following tools if you do not already have them:
  . Clone the activity, forecast and suggestion projects in your projects home directory. Be
    sure to read and perform any additional setup as outlined in the related project's
    README Getting Started section.
- . Navigate into the project directory, for exampe [projects home]/activity.
- . Change the settings in `activities.yml` to have your application run on a
+ . Navigate into the project directory, for example [projects home]/suggestion.
+ . Change the settings in `suggestion.yml` to have your application run on a
    port your choosing.
  . Run command `gradle build`.
  . Run command `gradle fatJar`.
