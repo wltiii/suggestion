@@ -64,6 +64,7 @@ dependencies {
 	compile group: httpBuilderGroup, name: 'http-builder', version: httpBuilderVersion
 	compile group: droolsGroup, name: 'drools-compiler', version: droolsVersion
 	compile group: googleProtobufGroup, name: 'protobuf-java', version: googleProtobufVersion
+    testCompile group: spockGroup, name: 'spock-core', version: spockVersion
 	testCompile group: equalsverifierGroup, name: 'equalsverifier', version: equalsverifierVersion
 }
 
